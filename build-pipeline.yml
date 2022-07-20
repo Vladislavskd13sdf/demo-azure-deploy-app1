@@ -1,0 +1,6 @@
+task: 'build-proj'
+    displayName: 'Build proj'
+    inputs:
+        command: './mvnw'
+        arguments: 'spring-boot:build'
+        projects: './target/*.jar'
